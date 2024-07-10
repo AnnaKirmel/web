@@ -1,0 +1,102 @@
+body {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #f5c1d1;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.profile-pic {
+    border-radius: 8px;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.info h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #d97a85;
+    font-family: "Playwrite BE WAL", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.info p {
+    margin: 2px 0;
+    color: #888;
+    font-family: 'Poppins', sans-serif;
+}
+.info {
+    flex: 1; /* Чтобы элемент info занимал доступное пространство */
+}
+
+.bio {
+    flex: 1; /* Чтобы элемент bio занимал доступное пространство */
+}
+
+.bio p {
+    margin: 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.social-links li {
+    margin: 10px 0;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #888;
+    background-color: #f5e9ec;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.social-links a i {
+    margin-right: 10px;
+}
+
+.social-links a:hover {
+    background-color: #f2d1d9;
+}
+
+.credits {
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
