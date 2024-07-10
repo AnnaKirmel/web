@@ -40,10 +40,9 @@ body {
     margin: 0;
     font-size: 24px;
     color: #d97a85;
-    font-family: "Playwrite BE WAL", cursive;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+    font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .info p {
